@@ -1,0 +1,10 @@
+﻿DROP TABLE IF EXISTS house;
+
+CREATE TABLE IF NOT EXISTS house (
+   house_id text PRIMARY KEY,
+   address text NOT NULL,
+   price text NOT NULL,
+	details text NOT NULL,
+	photo text NOT NULL,
+	url text NOT NULL
+);
