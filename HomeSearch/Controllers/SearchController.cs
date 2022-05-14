@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HomeSearch.Controllers {
-    [Route("data")]
+    [Route("home_search")]
     [ApiController]
     public class SearchController : ControllerBase {
 
