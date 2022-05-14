@@ -19,7 +19,7 @@ namespace HomeSearch.Controllers {
             return zillow.GetHouseList();
         }
 
-        [HttpGet("/{id}")]
+        [HttpGet("{id}")]
         public House GetHouseByID(String id) {
             return zillow.GetHouseById(id);
         }
