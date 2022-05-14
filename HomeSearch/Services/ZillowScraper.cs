@@ -5,7 +5,7 @@ using System.Data;
 
 namespace HomeSearch.Services {
     public class ZillowScraper : IZillowScraper {
-        private String sqlDataSource = "Host=localhost;Username = postgres;Password=Andrew1021!;Database=HomeFinder";
+        private String sqlDataSource = "Host=localhost;Username = postgres;Password=postgres1;Database=postgres";
 
         public async Task GenerateHouses() {
             
